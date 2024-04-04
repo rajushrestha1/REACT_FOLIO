@@ -23,5 +23,6 @@ export default function HeroSection(){
             <img src="profile.png" alt="Hero Section" />
         </div>
        </section>
+      
     );
 }

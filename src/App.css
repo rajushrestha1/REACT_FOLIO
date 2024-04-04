@@ -211,3 +211,20 @@ Pagraph text large small medium */
   height: 100%;
 
 }
+/* Hero section style end */
+ 
+
+/* About us */
+.about-section{
+  display: grid;
+  padding: 133.3px 85,33px;
+  align-items: center;
+  gap: 114px;
+  grid-template-columns: repeat(2,1fr);
+}
+.about-section-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* About ends */
