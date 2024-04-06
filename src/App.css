@@ -106,9 +106,9 @@ h2{
 /* 
 Heading h3 */
 h3{
-  font-size: 51px;
-  font-weight: 500;
-  line-height: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
 /* 
@@ -159,6 +159,66 @@ Pagraph text large small medium */
   line-height: 24px;
 }
 /* Section titles end */
+
+
+/* Navbar section starts from here */
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}
+.navbar-logo img{
+  
+  width: 30px;
+  height: 25px;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: max-height 0.3s ease-out;
+  max-height: 0;
+
+}
+
+.navbar-menu.active {
+  max-height: 300px; /* Adjust according to your needs */
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-left: 1rem;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+/* Navbar style ends */
 
 /* Hero section style */
 .hero-section{
@@ -212,7 +272,78 @@ Pagraph text large small medium */
 
 }
 /* Hero section style end */
- 
+ /* My Skills starter */
+ .skills-section{
+  display: flex;
+  padding: 149.9px 85.5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 106.67px;
+
+ }
+ .skills-section-heading{
+  color: var(--heading-color);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 77px;
+ }
+ .skills-section-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 42.6px;
+  grid-template-columns: repeat(3 ,1fr);
+
+ }
+ .skills-section-card{
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  gap: 1 0 0;
+  border-radius: 11px;
+  background-color: var(--bg-shade);
+  min-height: 250px;
+ }
+ .skills-section-card :hover{
+  border-bottom: 4px solid var(--primary);
+ }
+ .skills-section-card :hover .skills-section-description{
+  color: var(--darkblue);
+ }
+ .skills-section-img{
+  display: flex;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.333px;
+  border-radius: 10.22px;
+  background-color: #fff;
+  box-shadow: 0 0 16px 0 rgb(85, 82, 82);
+ }
+ .skills-section-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+ }
+ .skills-section-title{
+  color: var(--heading-color);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+
+ }
+.skills-section-description{
+  color: var(--black);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+}
+/* skills style ending */
 
 /* About us */
 .about-section{
@@ -228,3 +359,73 @@ Pagraph text large small medium */
 }
 
 /* About ends */
+/* portfolio section starter */
+.portfolio-section{
+  display: flex;
+  padding: 112px 85px;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+.portfolio-container-box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.portfolio-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 80px;
+}
+.portfolio-section-container{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+ gap: 42px;
+  width: 100%;
+}
+.portfolio-section-img{
+  border-radius: 80px;
+  width: 100%;
+}
+.portfolio-section-img > img{
+  width: 100%;
+}
+.portfolio-section-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  background-color: #fff;
+  box-shadow: 0 0 32px 0 rgb(73, 70, 70);
+  cursor: pointer;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.portfolio-section-card-content{
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.portfolio-section-title{
+  color:var(--heading-color) ;
+}
+.portfolio-link{
+  text-decoration: none;
+  display: flex;
+  gap: 16px;
+  border-bottom: 1.33px solid var(--primary);
+  padding-bottom: 10.6px;
+  font-weight: 600;
+}
+.portfolio-section-card :hover path{
+stroke: aqua;
+}
+
+/* portfolio style ends here */

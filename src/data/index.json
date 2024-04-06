@@ -1,0 +1,59 @@
+{
+    "skills" :[
+        {
+            "id" : "1",
+            "src" : "favicon.ico",
+            "title" : "Front-End",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+
+          
+
+        },
+        {
+            "id" : "2",
+            "src" : "node-js.svg",
+            "title" : "Backend",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+            
+          
+
+        },
+        {
+            "id" : "3",
+            "src" : "dev.png",
+            "title" : "Wev Developer",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+            
+
+        }
+    ],
+    "portfolio" :[
+        {
+            "id" : "1",
+            "src" : "img1.png",
+            "title" : "First Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            
+          "link" : "View on GitHub"
+
+        },
+        {
+            "id" : "2",
+            "src" : "img2.png",
+            "title" : "Second Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            
+          "link" : "View on GitHub"
+
+        },
+        {
+            "id" : "3",
+            "src" : "img3.png",
+            "title" : "Third Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            
+            
+          "link" : "View on GitHub"
+        }
+    ]
+}
