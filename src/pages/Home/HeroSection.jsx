@@ -11,13 +11,20 @@ export default function HeroSection(){
             <br />
             Developer
                 </h1>
-            <p className="hero-section-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam tempora eos, rerum qui dolorum dolorem asperiores, totam reiciendis est sunt optio doloremque dignissimos alias ea at cumque voluptatem inventore error.
+            <p className="hero-section-description">
+                I am a motivated and versatile individual, always
+                eager to take a new chellanges. Witha passion for
+                learning. I'm dedicated to delevering high-quality
+                results. With a positive attitude and growing mindset,
+                I'm ready to make meaningful contribution and achieve
+                great things.
+
             </p>
-            <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officiis maiores autem minus distinctio facilis hic quae consequatur molestiae ipsa corporis, ab quo qui voluptatum dolores nemo natus doloremque obcaecati.
+
 
 
             </div>
-            <button className="btn btn-primary">Get In Touch</button>
+            <button className=" btn-primary">Get In Touch</button>
        </div>
         <div className="hero-section-img">
             <img src="profile.png" alt="Hero Section" />

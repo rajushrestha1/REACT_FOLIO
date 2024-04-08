@@ -2,7 +2,7 @@
     "skills" :[
         {
             "id" : "1",
-            "src" : "favicon.ico",
+            "src" : "frontend.png",
             "title" : "Front-End",
             "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
 
@@ -11,7 +11,7 @@
         },
         {
             "id" : "2",
-            "src" : "node-js.svg",
+            "src" : "backend.png",
             "title" : "Backend",
             "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
             
@@ -20,7 +20,7 @@
         },
         {
             "id" : "3",
-            "src" : "dev.png",
+            "src" : "web.png",
             "title" : "Wev Developer",
             "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
             
@@ -54,6 +54,43 @@
             
             
           "link" : "View on GitHub"
+        }
+    ],
+
+    "testimonial" :[
+        {
+            "id" : "1",
+            "count" :"5",
+            "src" : "avatar-image.png",
+            "title" : "First Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            "author-name" :"raju",
+            "author-designation" :"rajushrestha1"
+          
+
+        },
+        {
+            "id" : "2",
+            "count":"5",
+            "src" : "avatar-image-1.png",
+            "title" : "Second Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            "author-name" :"Nabin",
+            "author-designation" :"rajushrestha1"
+          
+          
+
+        },
+        {
+            "id" : "3",
+            "count":"5",
+            "src" : "avatar-image-2.png",
+            "title" : "Third Project",
+            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
+            "author_name" :"Mr.Raju",
+            "author_designation" :"rajushrestha1"
+          
+          
         }
     ]
 }
