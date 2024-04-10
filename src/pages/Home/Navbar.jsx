@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,6 +35,12 @@ const Navbar = () => {
           <Link to="/contact" className="nav-link">
             Contact Me
           </Link>
+          <div className="btn-github">
+          <a href="https://github.com/rajushrestha1"><button>GitHub
+            <GitHubIcon />
+            </button></a>
+          
+          </div>
         </div>
       </div>
     </nav>
