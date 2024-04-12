@@ -6,12 +6,13 @@ export default function AboutMe(){
             </div>
             <div className="hero-section-content-box about-section-box">
                 <div className="hero-section-content">
-                    <p className="section-title">About</p>
+                    
                     <h1 className="skills-section-heading">About Me
                         
                     </h1>
-                    <p className="hero-section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga quis hic! Id, hic? Iure?</p>
-                    <p className="hero-section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga quis hic! Id, hic? Iure?</p>
+                    <p className="hero-section-description">It's me Raju Shrestha from Sindhuli Nepal. 
+                    I am currently persuing a degree in in Bsc.Csit at Tribhuvan University.
+                    My education is focused on Information and Technology.</p>
 
                 </div>
             </div>

@@ -2,11 +2,10 @@ export default function Contactme(){
     return(
         <section id="Contact" className="contact-section">
             <div>
-                <p className="sut-title">Get in Touch</p>
+                
                 <h2>Contact Me</h2>
                 <p className="text-lg">
-                    Lorem ipsum dolor sit amet consectetur
-                     adipisicing elit. Facere, praesentium!
+                    Hello,It's me Raju Shrestha. If you have any Query, you can contact me from below detail.
                 </p>
 
             </div>
@@ -44,7 +43,7 @@ export default function Contactme(){
                        id="phone-number" required />
                     </label>
                 </div>
-                <label htmlFor="choose-topic" className="contact-label">
+                {/* <label htmlFor="choose-topic" className="contact-label">
                         <span className="text-md">Choose a topic</span>
                        <select id="choose-topic" className="contact-input text-md">
                         <option>select one..</option>
@@ -53,7 +52,7 @@ export default function Contactme(){
                         <option>Item 3</option>
                        </select>
 
-                    </label>
+                    </label> */}
                     <label htmlFor="message" className="contact-label">
                         <span className="text-md">Message</span>
                         <textarea 
@@ -71,6 +70,7 @@ export default function Contactme(){
                         <span className="text-sn">I accept the terms </span>
                     </label>
                     <div ><button className="btn btn-primary contact-form">
+                        submit
                     </button>
                     </div>
             </form>

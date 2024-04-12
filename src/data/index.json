@@ -4,7 +4,7 @@
             "id" : "1",
             "src" : "frontend.png",
             "title" : "Front-End",
-            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+            "description" : "I am a dedicated frontend developer with a strong foundation on HTML, CSSMAND JavaScript. My primary expertise lies in crafting intutitive and visually appealing user interfaces using modern frontend framework React.js.Contineous learning is integral to professional growth, and i stay updated with latest trend and technologies in frontend development."
 
           
 
@@ -13,7 +13,7 @@
             "id" : "2",
             "src" : "backend.png",
             "title" : "Backend",
-            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+            "description" : "I am a dedicated backend developer with a passion for crafting robust, and effecient server-side solutions. I've a basic foundation of Node.js. "
             
           
 
@@ -21,8 +21,8 @@
         {
             "id" : "3",
             "src" : "web.png",
-            "title" : "Wev Developer",
-            "description" : "lorem is a lorem apple ball cat dog .title hamburgerg"
+            "title" :"web developer",
+            "description" : "I am a skilled web developer with a passion for crafting interactive and user-friendly websites. I' am proficient in both frontend and basic of backend technologies . My expertie includes HTML, CSS and JavaScript and various Frameworks such as React.js and Node.js."
             
 
         }
@@ -64,8 +64,8 @@
             "src" : "avatar-image.png",
             "title" : "First Project",
             "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
-            "author-name" :"raju",
-            "author-designation" :"rajushrestha1"
+            "author_name" :"raju",
+            "author_designation" :"rajushrestha1"
           
 
         },
@@ -75,8 +75,8 @@
             "src" : "avatar-image-1.png",
             "title" : "Second Project",
             "description" : "lorem is a lorem apple ball cat dog .title hamburgerg",
-            "author-name" :"Nabin",
-            "author-designation" :"rajushrestha1"
+            "author_name" :"Nabin",
+            "author_designation" :"rajushrestha1"
           
           
 
