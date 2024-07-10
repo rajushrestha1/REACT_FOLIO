@@ -1,8 +1,8 @@
-export default function Contactme(){
-    return(
+export default function Contactme() {
+    return (
         <section id="Contact" className="contact-section">
             <div>
-                
+
                 <h2>Contact Me</h2>
                 <p className="text-lg">
                     Hello,It's me Raju Shrestha. If you have any Query, you can contact me from below detail.
@@ -12,35 +12,35 @@ export default function Contactme(){
             <form className="contact-form-container">
                 <div className="container">
                     <label htmlFor="first-name"
-                    className="contact-label">
+                        className="contact-label">
                         <span className="text-md">First Name</span>
                         <input type="text"
-                       className="contact-input text-md" 
-                       name="first-name"
-                       id="first-name" required />
+                            className="contact-input text-md"
+                            name="first-name"
+                            id="first-name" required />
                     </label>
                     <label htmlFor="last-name"
-                    className="contact-label">
+                        className="contact-label">
                         <span className="text-md">Last Name</span>
                         <input type="text"
-                       className="contact-input text-md" 
-                       name="last-name"
-                       id="last-name" required />
+                            className="contact-input text-md"
+                            name="last-name"
+                            id="last-name" required />
                     </label>
                     <label htmlFor="email"
-                    className="contact-label">
+                        className="contact-label">
                         <span className="text-md">Email</span>
                         <input type="email"
-                       className="contact-input text-md" 
-                       name="email"
-                       id="email" required />
+                            className="contact-input text-md"
+                            name="email"
+                            id="email" required />
                     </label>
                     <label htmlFor="phone-number" className="contact-label">
                         <span className="text-md">Phone Number</span>
                         <input type="number"
-                       className="contact-input text-md" 
-                       name="phone-number"
-                       id="phone-number" required />
+                            className="contact-input text-md"
+                            name="phone-number"
+                            id="phone-number" required />
                     </label>
                 </div>
                 {/* <label htmlFor="choose-topic" className="contact-label">
@@ -53,26 +53,26 @@ export default function Contactme(){
                        </select>
 
                     </label> */}
-                    <label htmlFor="message" className="contact-label">
-                        <span className="text-md">Message</span>
-                        <textarea 
-                       className="contact-input text-md" 
-                       name="message"
-                       id="message" 
-                       rows="8"
-                       placeholder="Type Your message......."/>
-                      
-                    </label>
-                    <label htmlFor="checkbox" className="checkbox-label">
-                        <input type="checkbox" 
+                <label htmlFor="message" className="contact-label">
+                    <span className="text-md">Message</span>
+                    <textarea
+                        className="contact-input text-md"
+                        name="message"
+                        id="message"
+                        rows="8"
+                        placeholder="Type Your message......." />
+
+                </label>
+                <label htmlFor="checkbox" className="checkbox-label">
+                    <input type="checkbox"
                         required name="checkbox"
                         id="checkbox" />
-                        <span className="text-sn">I accept the terms </span>
-                    </label>
-                    <div ><button className="btn btn-primary contact-form">
-                        submit
-                    </button>
-                    </div>
+                    <span className="text-sn">I accept the terms </span>
+                </label>
+                <div ><button className="btn btn-primary contact-form">
+                    submit
+                </button>
+                </div>
             </form>
 
         </section>

@@ -13,9 +13,9 @@ export default function HeroSection(){
                 </h1>
             <p className="hero-section-description">
                 I am a motivated and versatile individual, always
-                eager to take a new chellanges. Witha passion for
+                eager to take a new chellanges, with a passion for
                 learning. I'm dedicated to delevering high-quality
-                results. With a positive attitude and growing mindset,
+                results, With a positive attitude and growing mindset.
                 I'm ready to make meaningful contribution and achieve
                 great things.
 
@@ -27,7 +27,7 @@ export default function HeroSection(){
             <button className=" btn-primary">Get In Touch</button>
        </div>
         <div className="hero-section-img">
-            <img src="profile.png" alt="Hero Section" />
+            <img src="home.png" alt="Hero Section" />
         </div>
        </section>
       

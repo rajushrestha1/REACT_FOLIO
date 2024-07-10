@@ -17,7 +17,8 @@ const Navbar = () => {
           <span className="line line1"></span>
           <span className="line line2"></span>
           <span className="line line3"></span>
-          <span className="line line3"></span>
+          <span className="line line4"></span>
+          <span className="line line5"></span>
         </label>
         <div className="menu-items">
           <Link to="/" className="nav-link">
@@ -33,7 +34,7 @@ const Navbar = () => {
             Testimonial
           </Link>
           <Link to="/contact" className="nav-link">
-            Contact Me
+            ContactMe
           </Link>
           <div className="btn-github">
           <a href="https://github.com/rajushrestha1"><button>GitHub
